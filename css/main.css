@@ -203,7 +203,8 @@ h4 {
 .modal-content {
   width: 60%;
   display: block;
-  max-width: 700px;
+  max-width: 900px;
+  margin-left: 20%;
   border: 15px solid #fff;
 }
 
@@ -220,8 +221,8 @@ h4 {
 /* boton para cerrar */
 .close {
     position: absolute;
-    top: 100px;
-    right: 350px;
+    top: 70px;
+    right: 330px;
     color: #0bc592;
     font-size: 40px;
     font-weight: bold;
