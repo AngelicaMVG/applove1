@@ -2,7 +2,9 @@
  * Clases reutilizables para el proyecto
  * (Aquí pueden ir las clases de tu grid)
  */
-
+.m-0 {
+  margin:0;
+}
 .mb-0 {
   margin-bottom: 0;
 }
@@ -14,53 +16,70 @@
 .text-uppercase {
   text-transform: uppercase;
 }
-
-.link {
-  font-weight: 700;
-  padding: 15px;
-  display: inline-block;
+/*grid*/
+.container {
+  width: 100%;
+  margin: 0;
+}
+.row:before , .row:after{
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+.row {
+  width: 100%;
+}
+[class *='col-']{
+  min-height: 7px;
+  padding: 12px;
+  float: left;
+}
+.col-1 {
+  width: 8.333%;
 }
 
-.logo {
-  float: right;
+.col-2 {
+  width: 16.666%;
 }
 
-.menu-bar {
-  display: none;
+.col-3 {
+  width: 25%;
 }
 
-@media screen and (max-width: 800px) {
-  header nav {
-    position: fixed;
-    margin: 0;
-    left: -100%;
-    height: 80%;
-    width: 80%;
-  }
-  .logo {
-    display: none;
-  }
+.col-4 {
+  width: 33.333%;
+}
 
+.col-5 {
+  width: 41.666%;
+}
 
-  header nav ul li {
+.col-6 {
+  width: 50%;
+}
 
-    float: left;
-    display: block;
-    border-bottom: 1px solid black;
-  }
+.col-7 {
+  width: 58.333%;
+}
 
-  .menu-bar {
-    display: block;
-    width: 100%;
-    background: #ccc;
-  }
-  .menu-bar .btn-menu {
-    display: block;
-    padding: 20px;
-    background: #025959;
-    color: #fff;
-  }
-  a>i {
-    float: right;
-  }
+.col-8 {
+  width: 66.666%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.333%;
+}
+
+.col-11 {
+  width: 91.666%;
+}
+
+.col-12 {
+  width: 100%;
 }
