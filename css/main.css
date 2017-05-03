@@ -19,7 +19,7 @@ body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
-  background-color: #F17C72;
+
 
 }
 
@@ -54,7 +54,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 554px;
-  text-align: center;
   margin-top: 80px;
 }
 
@@ -137,8 +136,9 @@ ul li img {
   .menu-bar .btn-menu {
     display: block;
     padding: 20px;
-    background: #F17C72;
-    color: #fff;
+    background: #fff;
+    color: #0000;
+    font-weight: bold;
   }
   a>i {
     float: right;
@@ -147,7 +147,7 @@ ul li img {
 
 #services {
   background-color: #F17C72 ;
-  text-align: center;
+  padding: 70px 7px;
   margin-top: 0;
   color: #fff;
 }
@@ -167,6 +167,13 @@ footer {
   padding-top: 7px;
 }
 
-/*.box-services {
-  display: inline-block;
-}*/
+#work ,
+#imagenes {
+  background: #fff;
+  color: black;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 20px;
+}

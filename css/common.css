@@ -16,6 +16,10 @@
 .text-uppercase {
   text-transform: uppercase;
 }
+
+.align {
+  text-align: center;
+}
 /*grid*/
 .container {
   width: 100%;
